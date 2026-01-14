@@ -21,3 +21,5 @@ psutil>=5.9.0
 # Needed only for stress tests and batchkit_examples/speech_sdk:
 azure-cognitiveservices-speech==1.20.0
 audiofile
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
